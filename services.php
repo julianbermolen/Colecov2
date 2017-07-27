@@ -5,8 +5,8 @@
                 <div class="row">
                     <div class="col-sm-12 wow fadeIn">
                         <i class="fa fa-tasks"></i>
-                        <h1>Services /</h1>
-                        <p>Here are the services we offer</p>
+                        <h1>Servicios /</h1>
+                        <p>Aquí, los servicios que ofrecemos</p>
                     </div>
                 </div>
             </div>
@@ -17,14 +17,10 @@
         	<div class="container">
 	            <div class="row">
 	                <div class="col-sm-12 services-full-width-text wow fadeInLeft">
-	                    <h3>Lorem Ipsum Dolor Sit Amet</h3>
+	                    <h3>Coleco</h3>
 	                    <p>
-	                    	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. 
-	                    	Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper <span class="violet">suscipit lobortis</span> 
-	                    	nisl ut aliquip ex ea commodo consequat. Lorem ipsum <strong>dolor sit amet</strong>, consectetur adipisicing elit, 
-	                    	sed do eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper 
-	                    	suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
-	                    	sed do <strong>eiusmod tempor</strong> incididunt.
+	                    	Somos un pequeño grupo de personas dedicadas hace más de 10 años al corte y confección de prendas de todo tipo, como por ejemplo disfraces, buzos o camperas de egresados y vestimenta para danza.<br>En <span class="violet">Coleco </span> 
+	                    	valoramos ante todo la responsabilidad y puntualidad para nuestros trabajos, asi como también la excelencia en el mismo. 
 	                	</p>
 	                </div>
 	            </div>
@@ -38,60 +34,30 @@
 	            	<div class="col-sm-3">
 		                <div class="service wow fadeInUp">
 		                    <div class="service-icon"><i class="fa fa-eye"></i></div>
-		                    <h3>Beautiful Websites</h3>
-		                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et...</p>
+		                    <h3>Diseños bonitos</h3>
+		                    <p>Intentamos lograr buenos diseños para las prendas que confeccionamos. Nuestra meta es llegar al mejor diseño posible.</p>
 		                </div>
 					</div>
 					<div class="col-sm-3">
 		                <div class="service wow fadeInDown">
 		                    <div class="service-icon"><i class="fa fa-table"></i></div>
-		                    <h3>Responsive Layout</h3>
-		                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et...</p>
+		                    <h3>Pactamos fechas de entrega</h3>
+		                    <p>En caso de ser necesario la vestimenta, pactamos una fecha de entrega dependiendo de la necesidad.</p>
 		                </div>
 	                </div>
 	                <div class="col-sm-3">
 		                <div class="service wow fadeInUp">
 		                    <div class="service-icon"><i class="fa fa-magic"></i></div>
-		                    <h3>Awesome Logos</h3>
-		                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et...</p>
+		                    <h3>Responsabilidad ante todo</h3>
+		                    <p>Nos destacamos por nuestra responsabilidad y seriedad en el negocio.</p>
 		                </div>
 	                </div>
 	                <div class="col-sm-3">
 		                <div class="service wow fadeInDown">
 		                    <div class="service-icon"><i class="fa fa-print"></i></div>
-		                    <h3>High Res Prints</h3>
-		                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et...</p>
+		                    <h3>Grabados</h3>
+		                    <p>Las prendas pueden tener ciertos grabados en caso de ser necesarios.</p>
 		                </div>
-	                </div>
-	            </div>
-	        </div>
-        </div>
-
-        <!-- Services Half Width Text -->
-        <div class="services-half-width-container">
-        	<div class="container">
-	            <div class="row">
-	                <div class="col-sm-6 services-half-width-text wow fadeInLeft">
-	                    <h3>Lorem Ipsum</h3>
-	                    <p>
-	                    	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. 
-	                    	Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper <span class="violet">suscipit lobortis</span> 
-	                    	nisl ut aliquip ex ea commodo consequat. Lorem ipsum <strong>dolor sit amet</strong>, consectetur adipisicing elit, 
-	                    	sed do eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper 
-	                    	suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
-	                    	sed do <strong>eiusmod tempor</strong> incididunt.
-	                    </p>
-	                </div>
-	                <div class="col-sm-6 services-half-width-text wow fadeInUp">
-	                    <h3>Dolor Sit Amet</h3>
-	                    <p>
-	                    	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. 
-	                    	Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper <span class="violet">suscipit lobortis</span> 
-	                    	nisl ut aliquip ex ea commodo consequat. Lorem ipsum <strong>dolor sit amet</strong>, consectetur adipisicing elit, 
-	                    	sed do eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper 
-	                    	suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
-	                    	sed do <strong>eiusmod tempor</strong> incididunt.
-	                    </p>
 	                </div>
 	            </div>
 	        </div>
@@ -103,11 +69,10 @@
 	            <div class="row">
 	                <div class="col-sm-12 call-to-action-text wow fadeInLeftBig">
 	                    <p>
-	                    	Lorem ipsum <span class="violet">dolor sit amet</span>, consectetur adipisicing elit, 
-	                    	sed do eiusmod tempor incididunt ut labore et ut wisi.
+	                    	¿Qué esperas para llamar a <span class="violet">Coleco</span>? 
 	                    </p>
 	                    <div class="call-to-action-button">
-	                        <a class="big-link-3" href="#">Try It Now!</a>
+	                        <a class="big-link-3" href="contact.php">Contactanos!</a>
 	                    </div>
 	                </div>
 	            </div>

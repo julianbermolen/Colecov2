@@ -6,8 +6,8 @@
                 <div class="row">
                     <div class="col-sm-12 wow fadeIn">
                         <i class="fa fa-envelope"></i>
-                        <h1>Contact Us /</h1>
-                        <p>Here is how you can contact us</p>
+                        <h1>Contactate /</h1>
+                        <p>Aquí podrás encontrar como comunicarte con nosotros</p>
                     </div>
                 </div>
             </div>
@@ -19,36 +19,34 @@
 	            <div class="row">
 	                <div class="col-sm-7 contact-form wow fadeInLeft">
 	                    <p>
-	                    	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. 
-	                    	Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper <a href="">suscipit lobortis</a> 
-	                    	nisl ut aliquip ex ea commodo consequat.
+	                    	Trabajamos de 9 a 18Hs, comunicate con nosotros en ese horario o deja un mensaje y lo responderemos lo antes posible.
 	                    </p>
 	                    <form role="form" action="assets/sendmail.php" method="post">
 	                    	<div class="form-group">
-	                    		<label for="contact-name">Name</label>
-	                        	<input type="text" name="name" placeholder="Enter your name..." class="contact-name" id="contact-name">
+	                    		<label for="contact-name">Nombre</label>
+	                        	<input type="text" name="name" placeholder="Tu Nombre..." class="contact-name" id="contact-name">
 	                        </div>
 	                    	<div class="form-group">
 	                    		<label for="contact-email">Email</label>
-	                        	<input type="text" name="email" placeholder="Enter your email..." class="contact-email" id="contact-email">
+	                        	<input type="text" name="email" placeholder="Tu Email..." class="contact-email" id="contact-email">
 	                        </div>
 	                        <div class="form-group">
-	                        	<label for="contact-subject">Subject</label>
-	                        	<input type="text" name="subject" placeholder="Your subject..." class="contact-subject" id="contact-subject">
+	                        	<label for="contact-subject">Asunto</label>
+	                        	<input type="text" name="subject" placeholder="Asunto..." class="contact-subject" id="contact-subject">
 	                        </div>
 	                        <div class="form-group">
-	                        	<label for="contact-message">Message</label>
-	                        	<textarea name="message" placeholder="Your message..." class="contact-message" id="contact-message"></textarea>
+	                        	<label for="contact-message">Mensaje</label>
+	                        	<textarea name="message" placeholder="Tu mensaje..." class="contact-message" id="contact-message"></textarea>
 	                        </div>
-	                        <button type="submit" class="btn">Send</button>
+	                        <button type="submit" class="btn">Enviar</button>
 	                    </form>
 	                </div>
 	                <div class="col-sm-5 contact-address wow fadeInUp">
-	                    <h3>We Are Here</h3>
+	                    <h3>Estamos aquí</h3>
 	                    <div class="map"></div>
 	                    <h3>Address</h3>
-	                    <p>Via Principe Amedeo 9 <br> 10100, Torino, TO, Italy</p>
-	                    <p>Phone: 0039 333 12 68 347</p>
+	                    <p>Juan florio 318<br> Villa Luzuriaga, La Matanza</p>
+	                    <p>Telefono: 4659-6973</p>
 	                </div>
 	            </div>
 	        </div>
