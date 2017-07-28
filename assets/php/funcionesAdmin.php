@@ -14,5 +14,11 @@
 
 			return $resultado;
 		}
+	function traerProducto($id){
+			include("assets/db/conexion.php");
+			$query = "select * from producto where idProducto = $id";
+			$resultado = mysqli_query($conn,$query);
 
+			return $resultado;
+	}
 ?>

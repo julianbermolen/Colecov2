@@ -11,7 +11,7 @@
 	        		<div class="col-sm-12 wow fadeInLeftBig">
 	            		<h1>Listado de productos <span class="violet">Coleco</span></h1>
 	            		<div class="col-sm-12 wow">
-	            		<button type="button" class="btn btn-outline-primary">Crear<a href="ab.php?accion=1"></a></button>
+	            		<a href="ab.php?accion=1"><button type="button" class="btn btn-outline-primary">Crear</a></button>
 	            			<table class="table table-bordered">
 								  <thead>
 								    <tr>
@@ -36,7 +36,7 @@
 								      <td>'.$valor['precio'].'</td>
 								      <td>'.$valor['imagen1'].'</td>
 								      <td><a href="ab.php?id='.$valor['idProducto'].'&accion=2">Editar</a></td>
-								      <td>X</td>
+								      <td><a href="assets/php/eliminarProducto.php?id='.$valor['idProducto'].'&imagen1='.$valor['imagen1'].'&imagen3='.$valor['imagen2'].'&imagen3='.$valor['imagen3'].'">X</a></td>
 								    </tr>';
 								    }
 								?>
