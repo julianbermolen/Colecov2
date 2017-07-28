@@ -10,7 +10,7 @@
 	                        <p>
 	                        	Somos un grupo con el objetivo de lograr un trabajo correcto, nos destacamos por nuestra responsabilidad y puntualidad.
 	                        </p>
-	                        <p><a href="about.html">Leer más...</a></p>
+	                       
                         </div>
                     </div>
 

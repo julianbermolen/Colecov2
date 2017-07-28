@@ -10,7 +10,7 @@
         		<div class="row">
 	        		<div class="col-sm-12 wow fadeInLeftBig">
 	            		<h1>Listado de productos <span class="violet">Coleco</span></h1>
-	            		<div class="col-sm-12 wow">
+	            		<div class="col-sm-6 wow">
 	            		<?php
 
 	            		// PARA CREAR UN NUEVO PRODUCTO SE UTILIZA ESTE FORMULARIO
@@ -28,16 +28,19 @@
 									  </div>
 									  <div class="form-group">
 										    <label for="Nombre">Precio</label>
-										    <input type="text" class="form-control" name="precio" id="precio" placeholder="Precio del producto">
+										    <input type="text" class="form-control" name="precio" id="precio" placeholder="Precio del producto" onkeypress="return soloNumeros(event);">
 									  </div>
 									  <div class="form-group">
 										    <label for="exampleSelect2">Tipo</label>
 										    <select class="form-control" name="tipo" id="tipoProducto">
-										      <option value="1">1</option>
-										      <option value="2">2</option>
-										      <option value="3">3</option>
-										      <option value="4">4</option>
-										      <option value="5">5</option>
+										    <?php
+										    $resultado = listarCategorias();
+										    while($cat = mysqli_fetch_array($resultado)){
+										    
+										      echo '<option value="'.$cat['idtipo'].'">'.$cat['nombre'].'</option>';
+										  	}
+										      
+										     ?>
 										    </select>
 									  </div>
 									  <div class="form-group">
@@ -78,17 +81,24 @@
 									  </div>
 									  <div class="form-group">
 										    <label for="Nombre">Precio</label>
-										    <?php echo '<input type="text" class="form-control" id="precio" placeholder="Precio del producto" name="precio" value="'.$valor["precio"].'"">';?>
+										    <?php echo '<input type="text" class="form-control" id="precio" placeholder="Precio del producto" onkeypress="return soloNumeros(event);" name="precio" value="'.$valor["precio"].'"">';?>
 									  </div>
 									  <div class="form-group">
 										    <label for="exampleSelect2">Tipo</label>
 										    <select class="form-control" name="tipo" id="tipoProducto">
-										      <option value="">1</option>
-										      <option value="">2</option>
-										      <option value="">3</option>
-										      <option value="">4</option>
-										      <option value="">5</option>
-										    </select>
+										    <?php
+										    $resultado = listarCategorias();
+										    while($cat = mysqli_fetch_array($resultado)){
+										    if($valor['idtipo'] == $cat['idtipo']){
+										      echo '<option value="'.$cat['idtipo'].'" selected="selected">'.$cat['nombre'].'</option>';
+										    }else{
+										      echo '<option value="'.$cat['idtipo'].'">'.$cat['nombre'].'</option>';
+										    }
+										    
+										  	}
+										      
+										     ?>
+										     </select>
 									  </div>
 									  <div class="form-group">
 									    <label for="exampleInputFile">Imagen 1</label>

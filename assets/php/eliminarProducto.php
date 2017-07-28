@@ -1,5 +1,9 @@
 <?php
 	include('../db/conexion.php');
+	include("funcionesAdmin.php");
+	session_start();
+	filtrarUsuarios();
+
 	$id = $_GET['id'];
 	if(isset($_GET['imagen1'])){$imagen1 = $_GET['imagen1']; }
 	if(isset($_GET['imagen2'])){$imagen2 = $_GET['imagen2']; }

@@ -1,8 +1,9 @@
 <?php
 	include("../db/conexion.php");
+
 	$id = $_POST['id'];
-	$nombre = $_POST['nombre'];
-	$descripcion = $_POST['descripcion'];
+	$nombre = addslashes($_POST['nombre']);
+	$descripcion = addslashes($_POST['descripcion']);
 	$precio = $_POST['precio'];
 	$tipo = $_POST['tipo'];
 	$imagen1 = addslashes($_FILES["file"]["name"]);
@@ -12,17 +13,16 @@
 
 if ($_FILES["file"]["error"] > 0){
 	if ($imagen1 == ''){
-	$query="UPDATE producto SET nombre = '$nombre', descripcion = '$descripcion',precio = '$precio' WHERE idProducto = '$id'";
+	$query="UPDATE producto SET nombre = '$nombre', descripcion = '$descripcion', precio = $precio WHERE idProducto = $id";
 	
-	echo $query;die;
-	mysqli_query($conn,$query2);
+	mysqli_query($conn,$query);
 	header('location:../../panelAdmin.php');
 		}
 } else {
 	
 	$permitidos = array("image/jpg", "image/jpeg", "image/gif", "image/png");
 	$limite_kb = 1024;
-	$query2="UPDATE producto SET nombre = '$nombre', descripcion = '$descripcion',precio = '$precio', imagen1='$imagen1',imagen2='$imagen2', imagen3='$imagen3' WHERE idProducto = '$id'";
+	$query2="UPDATE producto SET nombre = '$nombre', descripcion = '$descripcion',precio = $precio, imagen1='$imagen1',imagen2='$imagen2', imagen3='$imagen3' WHERE idProducto = $id";
 
 	if (in_array($_FILES['file']['type'], $permitidos) && $_FILES['file']['size'] <= $limite_kb * 1024){
 		$ruta = "../img/portfolio/" . $_FILES['file']['name'];

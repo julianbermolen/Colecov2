@@ -49,6 +49,9 @@
                         <li>
                             <a href="index.php"><i class="fa fa-home"></i><br>Inicio</span></a>
                         </li>
+                                                <li>
+                            <a href="panelAdmin.php"><i class="fa fa-home"></i><br>Panel Admin</span></a>
+                        </li>
                         <li>
                             <a href="portfolio.php"><i class="fa fa-camera"></i><br>Trabajos</a>
                         </li>

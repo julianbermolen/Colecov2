@@ -8,7 +8,7 @@ function isEmail($email) {
 if($_POST) {
 
     // Enter the email where you want to receive the message
-    $emailTo = 'contact.azmind@gmail.com';
+    $emailTo = 'julianbermolen@gmail.com';
 
     $clientName = addslashes(trim($_POST['name']));
     $clientEmail = addslashes(trim($_POST['email']));
@@ -21,13 +21,13 @@ if($_POST) {
     $array['messageMessage'] = '';
 
     if($clientName == '') {
-        $array['nameMessage'] = 'Please enter your name.';
+        $array['nameMessage'] = 'Por favor, ingresá tu nombre.';
     }
     if(!isEmail($clientEmail)) {
-        $array['emailMessage'] = 'Please insert a valid email address.';
+        $array['emailMessage'] = 'Por favor, ingresá tu email';
     }
     if($message == '') {
-        $array['messageMessage'] = 'Please enter your message.';
+        $array['messageMessage'] = 'Ingresá un mensaje';
     }
     if($clientName != '' && isEmail($clientEmail) && $message != '') {
         // Send email

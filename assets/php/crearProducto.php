@@ -1,7 +1,10 @@
 <?php
 	include("../db/conexion.php");
-	$nombre = $_POST['nombre'];
-	$descripcion = $_POST['descripcion'];
+	include("funcionesAdmin.php");
+	session_start();
+	filtrarUsuarios();
+	$nombre = addslashes($_POST['nombre']);
+	$descripcion = addslashes($_POST['descripcion']);
 	$precio = $_POST['precio'];
 	$tipo = $_POST['tipo'];
 	$imagen1 = addslashes($_FILES["file"]["name"]);

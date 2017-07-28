@@ -9,7 +9,7 @@
 	function listarProductos()
 		{
 			include("assets/db/conexion.php");
-			$query = "SELECT * FROM producto";
+			$query = "SELECT b.nombre  as nombre1,a.idProducto,a.nombre,a.descripcion,a.precio,a.idtipo,a.imagen1,a.imagen2,a.imagen3 FROM producto a JOIN tipoProducto b on a.idtipo = b.idtipo";
 			$resultado = mysqli_query($conn,$query);
 
 			return $resultado;
@@ -20,5 +20,12 @@
 			$resultado = mysqli_query($conn,$query);
 
 			return $resultado;
+	}
+	function listarCategorias(){
+		include("assets/db/conexion.php");
+		$query = "select * from tipoProducto";
+		$resultado = mysqli_query($conn,$query);
+
+		return $resultado;
 	}
 ?>
