@@ -13,6 +13,8 @@ File Encoding         : 65001
 Date: 2017-07-28 15:49:16
 */
 
+USE u139874784_colec;
+
 SET FOREIGN_KEY_CHECKS=0;
 -- ----------------------------
 -- Table structure for `producto`
